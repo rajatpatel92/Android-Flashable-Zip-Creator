@@ -464,13 +464,6 @@ public class Operations {
         return "";
     }
     
-//<<<<<<< HEAD
-//    public void updateFileListWithSelectedGroupList(String str, DefaultListModel model, MultiValueMap mvm){
-//        if(this.groupArrayList.contains(str)){
-//            model.removeAllElements();
-//        }
-//        ArrayList<String> list = new ArrayList<>();
-
     public void updateFileListWithSelectedGroupList(String key, DefaultListModel model, MultiValueMap mvm){
         System.out.println("Updating file list of group " + key + "...");
         ArrayList<String> list;
